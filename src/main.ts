@@ -15,7 +15,6 @@ const getItemMetadata = (item: Item) => {
 };
 
 const setItemMetadata = (item: Item, update: ItemMetadata) => {
-  const meta = getItemMetadata(item);
   item.metadata = {
     ...item.metadata,
     [METADATA_PREFIX]: update,
