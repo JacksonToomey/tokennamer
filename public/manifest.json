@@ -1,0 +1,12 @@
+{
+  "name": "Token Namer",
+  "version": "1.0.0",
+  "manifest_version": 1,
+  "action": {
+    "title": "Token Namer",
+    "icon": "/icon.svg",
+    "popover": "/",
+    "height": 200,
+    "width": 200
+  }
+}
